@@ -2,14 +2,14 @@ module.exports = (req, res) => {
     if(req.method === 'GET')
     {
         res.json([
-            {nome: "Diego", email: "diego.b.montenegro@gmail.com"},
-            {nome: "Bruno", email: "cistema@hotmail.com"}
+            {Nome: "Diego", Email: "diego.b.montenegro@gmail.com"},
+            {Nome: "Bruno", Email: "cistema@hotmail.com"}
         ]);
     }
     else
     {
-        const { nome, email } = req.body;
-        res.send({status: "Usuário Criado", nome, email})
+        const { Nome, Email } = req.body;
+        res.send({status: "Usuário Criado", Nome, Email})
     }
 
     
