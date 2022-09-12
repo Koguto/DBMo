@@ -5,6 +5,7 @@ module.exports = (req, res) => {
             {Nome: "Diego", Email: "diego.b.montenegro@gmail.com"},
             {Nome: "Bruno", Email: "cistema@hotmail.com"}
         ]);
+		//Comentario desnecessario que sera removido apos merge
     }
     else
     {
